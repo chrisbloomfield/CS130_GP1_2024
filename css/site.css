@@ -4,19 +4,38 @@ ul {
     padding: 0;
   }
 
-  h1 {
-    color: white;
+  li a {
+   
+    width: 60px;
+    background-color: #dddddd;
+    padding: 8px 16px;
+    text-decoration: none;
+   
   }
 
+ li{
+  display: inline;
+ }
 
+
+ /* Change the link color to black on hover */
+li a:hover {
+  color: white;
+  background-color: black;
+}
+
+
+/*main layout style */
   .container{
     background-color: cornsilk;
-    padding: 2px;
+    padding: 4px;
 
 
   }
 
+  /*page header */
   .container_header{
 
     background-color: orange;
+    color: white;
   }
