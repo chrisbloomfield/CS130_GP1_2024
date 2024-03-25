@@ -7,7 +7,6 @@ ul {
   li a {
    
     width: 60px;
-    background-color: #dddddd;
     padding: 8px 16px;
     text-decoration: none;
    
@@ -36,6 +35,6 @@ li a:hover {
   /*page header */
   .container_header{
 
-    background-color: orange;
+    background-color: #ffa500;
     color: white;
   }
