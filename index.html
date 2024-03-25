@@ -5,15 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css\stylesheet_dropdwn.css">
 </head>
 
-<body>
 
-    <ul>
-        <li><a href="index.html">Home</a></li>    
-        <li><a href="travel.html">Travel</a></li>     
-        <li><a href="about.html">About</a></li>
-      </ul>
+<body>
+    <header> 
+        <nav> <!--Dropdown-->
+            <ul id="h-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="dropdown">
+                  <a href="travel.html" class="dropbtn">Travel</a>
+                  
+                    <div class="dropdown-content">
+                        <a href="beaches.html">Beaches</a>
+                        <a href="hotel.html">Hotels</a>
+                        <a href="tours.html">Tours</a>
+                    </div>
+                </li>
+            </ul>
+        </nav> <!--Dropdown-->
+    </header>
 
       
       
