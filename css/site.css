@@ -60,3 +60,25 @@ li a:hover {
     background-color: #ffa500;
     color: white;
   }
+
+
+  #hotel {
+    float: left;
+    background: white;
+    width: 33%;
+    height: 280px;
+}
+
+#beach {
+    float: left;
+    background: white;
+    width: 33%;
+    height: 280px;
+}
+
+#tour {
+    float: right;
+    background: white;
+    width: 33%;
+    height: 280px;
+}
