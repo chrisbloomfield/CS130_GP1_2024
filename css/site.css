@@ -1,6 +1,7 @@
 body{
   width: 80%;
   margin: auto;
+  padding:5px;
 }
 
 ul {
@@ -32,14 +33,30 @@ li a:hover {
 /*main layout style */
   .container{
     background-color: cornsilk;
-    padding: 4px;
-
-
+    margin: 0 auto;
+    padding:0px
+    
   }
 
   /*page header */
   .container_header{
+    text-align: center;
+    background-color: #ffa500;
+    color: white;
+  }
 
+/* style home page image */
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+
+  /**/
+  .footer {
+    text-align: center;
     background-color: #ffa500;
     color: white;
   }
