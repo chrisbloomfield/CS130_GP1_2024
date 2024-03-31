@@ -10,6 +10,7 @@ ul {
     padding: 0;
   }
 
+  /*    NOT NECESSARY. Conflicts with stylesheet_dropdwn.css
   li a {
    
     width: 60px;
@@ -17,6 +18,7 @@ ul {
     text-decoration: none;
    
   }
+  */
 
  li{
   display: inline;
