@@ -1,14 +1,34 @@
+body{
+  width: 80%;
+  margin: auto;
+  padding:5px;
+}
+
+
 header, a{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
+    font-size: 12px;
     text-transform: uppercase;
 }
 
-/* from site.css*/
-li {
-display: inline;
+/* fix navigation bar on Page for scrolling*/
+nav {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 80%; 
+    z-index: inherit;
 }
-/* from site.css*/
+
+main {
+  margin-top: 50px;
+}
+
+
+li{
+  display: inline;
+ }
+
 
 /* Drop down menu option*/
 ul {
@@ -27,7 +47,7 @@ ul {
     display: inline-block;
     color: rgb(0, 0, 0);
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px;
     text-decoration: none;
   }
   
@@ -43,19 +63,18 @@ ul {
     position:relative;
     text-align: center;
     background-color: #ffffff;
-    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;*/
   }
   
   .dropdown-content div a{
-    color: black;
-    padding: 16px 16px;
+    color: #ffffff;
+    padding: 16px;
     text-decoration: none;
     text-align: center;
-    display: inline-block;  
   }
   
-  .dropdown-content a:hover {background-color: rgb(245, 190, 88);}
+  .dropdown-content a:hover {
+    background-color: rgb(245, 190, 88); 
+  }
   
   .dropdown:hover .dropdown-content {
     display:block;
