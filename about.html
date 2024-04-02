@@ -30,18 +30,12 @@
     
     <main>
         <div> 
-            <img src="images\aboutpage\northcoast.jpg" class="image-container" alt="north coast" width="1350" height="300"> 
+            <img src="images\aboutpage\northcoast.jpg" class="image-container" alt="north coast" width="1350" height="200"> 
             <div class="overlay">
                 <h1>
-                    JA Travel Reviews
+                    About JA Travel Reviews
                 </h1>
-            </div>
-                <div class="title">
-                    <h2>
-                         About Us
-                    </h2>
-                </div>
-                    
+            </div>                    
         </div>    
         <hr>
         <p>
@@ -69,7 +63,7 @@
                     Contact Us
                 </h2>
                 
-                <form id="contactform" action="/submit_form" method="post">
+                <form action="confirmation.html" id="contactform">
                     
                     <label for="name" >*Name:</label> 
                     <input type="text" id="name" required="name" ><br><br>
@@ -79,13 +73,13 @@
                     
                     <label for="message">Message:</label><br>
                     <textarea id="message" name="message" cols="30" rows="5" maxlength="150"></textarea><br><br>
-                    <input class="submit" type="submit" value="Submit">
+                    <input class="submit" type="submit"/>
 
                     <button type="button" onclick="Clearform()">Clear</button>
                 </form> 
                 
                 <p>
-                    Or you may also send us as email to: info@jatravelreviews.com
+                    You may also send us an email to: info@jatravelreviews.com
                 </p>   
 
             </div>  
