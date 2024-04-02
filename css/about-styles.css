@@ -2,6 +2,7 @@ body{
     width: 80%;
     margin: auto;
     padding:5px;
+    min-width: 50px;
   }
 
 header{
@@ -25,21 +26,27 @@ main {
 
   .overlay {
     position:absolute;
-    top: 15%; 
+    top: 20%; 
     left: 20%;
     right: 20%;
     width:auto;
     /*transform: translate(-50%, -50%); */
-    background-color: #ffa600e2;
-    color: #ffffff; 
     /*  padding: 10px 10px; */
     text-align: center;
     margin: auto;
     padding: 5px;
-    display: inline;
+    display: inline-block;
 }
 
-.overlay {font-size: 22px;}
+span { 
+    display: inline;  
+    background-color: #ffa600e2; 
+    color: white; 
+    padding: 10px;
+}
+
+
+.overlay {font-size: 20px;}
 
 h2{  font-size: 20;}
 
@@ -93,4 +100,8 @@ button,.submit {
     color: white;
     border: none;
     cursor: pointer;
+}
+
+footer{
+    font-size: 8px;
 }
