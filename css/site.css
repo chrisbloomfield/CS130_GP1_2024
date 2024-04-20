@@ -1,3 +1,4 @@
+/*
 body{
   width: 80%;
   margin: auto;
@@ -18,28 +19,30 @@ ul {
     text-decoration: none;
    
   }
-  */
+  
 
  li{
   display: inline;
  }
-
+*/
 
  /* Change the link color to black on hover */
+ /*
 li a:hover {
   color: white;
   background-color: black;
 }
-
+*/
 
 /*main layout style */
+/*
   .container{
     background-color: cornsilk;
     margin: 0 auto;
     padding:0px
     
   }
-
+*/
   /*page header */
   .container_header{
     text-align: center;
@@ -48,6 +51,7 @@ li a:hover {
   }
 
 /* style home page image */
+
   .center {
     display: block;
     margin-left: auto;
@@ -55,14 +59,14 @@ li a:hover {
     width: 80%;
   }
 
-
   /**/
+  /*
   .footer {
     text-align: center;
     background-color: #ffa500;
     color: white;
   }
-
+*/
 
   #hotel {
     float: left;

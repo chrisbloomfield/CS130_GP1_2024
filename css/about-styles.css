@@ -1,4 +1,4 @@
-body{
+/*body{
     width: 80%;
     margin: auto;
     padding:5px;
@@ -11,10 +11,11 @@ header{
     
 } 
 /* style home page image */
+/*
 main {
     margin-top: 50px;
     background: #c5f5fa;
- }
+ }*/
 
 /* overlay */
 .image-container {
@@ -22,20 +23,20 @@ main {
     margin-left: auto;
     margin-right: auto;
     width: 100%; 
+    z-index: 1;
   }
 
   .overlay {
-    position:absolute;
-    top: 20%; 
+    position: absolute;
     left: 20%;
     right: 20%;
+    bottom: 70%;
     width:auto;
     /*transform: translate(-50%, -50%); */
     /*  padding: 10px 10px; */
     text-align: center;
     margin: auto;
     padding: 5px;
-    display: inline-block;
 }
 
 span { 
@@ -58,9 +59,8 @@ p{  font-size: 18px;  }
 }
 
 
-
 /*Form*/
-
+/*
 .container { display: flex;
     z-index: 2;
 }
@@ -79,8 +79,9 @@ p{  font-size: 18px;  }
     overflow: hidden;
     
 }
-
+*/
 /* form overlay on image*/
+/*
 .form {
     display: block;
     text-align: left;
@@ -104,4 +105,4 @@ button,.submit {
 
 footer{
     font-size: 8px;
-}
+}*/

@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="blue">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Document</title>
     <link rel="stylesheet" href="css\bootstrap.css">
     <link rel="stylesheet" href="css\about-styles.css"> 
   <!--<link rel="stylesheet" href="css\stylesheet_dropdwn.css"> -->
 </head>
-
-
 <body>
-    <header> 
+    <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
              <!-- <a class="navbar-brand" href="#">Navbar</a> -->
@@ -48,57 +46,66 @@
                 </div>
             </div>
         </nav>
-
     </header>
 
-      
-      
-
-
-      <div class="container">
-        <div class="container_header"><h1>TOURS</h1></div>
-         <hr/>
+    <main>
         <div> 
-            <h2>YS Falls</h2>  
-            <img src="images/ys falls jamaica.jpg" alt="YS Falls Jamaica">
-        </div>
-       <div>
-        <div>
-            <p>
-                YS Falls, hidden in the calm setting of St. Elizabeth parish in Jamaica, is a stunning natural wonder known for its seven falling levels surrounded by lush tropical foliage. Visitors are drawn to the spectacular beauty and tranquillity. Adventurers can swim in natural lakes and swing from Tarzan-style ropes, while environment lovers appreciate the abundant wildlife and sustainable tourism efforts. YS Falls provides a quiet respite from the throng, making it a great destination for families and travellers looking for both adventure and tranquilly amid Jamaica's scenic countryside.
-            </p>
-        </div>
-        <div>
-            <h2>Tours of YS Falls</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/5DezRdqD2PA?si=wU2-3vB6jgNiwu5m" title="YS Falls Jamaica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-       <div>
-        <h2>Adventurers</h2>
-    <ul>
-        <li>The Cascading Waterfalls</li>
-       <br><br> <li>Canopy Zip Line</li>
-       <br><br> <li>Pools Swimming</li>
-       <br><br> <li>Nature Trails</li>
-       <br><br> <li>Picnic Areas</li>
-       <br><br> <li>River Tubing</li>
-    </ul>
+            <img src="images\aboutpage\northcoast.jpg" class="image-container" alt="north coast" width="1350" height="200"> 
+            <div class="overlay">
+                <H1>
+                    <span> Contact Us </span>
+                </H1> 
+               
+            </div>                    
+        </div>   
+        <br> 
+        <hr>
+<br>
+<div class="row">
+    <div class="col">
+      <img src="images\aboutpage\contactus3.jpg" width="700" height="350">
     </div>
-    <div>
-        <h2>Rules</h2>
-        <ol>
-        <li>Watch your steps</li>
-       <br><br> <li>Wear water shoes</li>
-       <br><br> <li>Listen out</li>
-        <br><br> <li>Use hand-rails</li>
-       <br><br> <li>Stick to walkways</li>
-       <br><br> <li>Ask Lifeguards for assistance</li>
-       <br><br> <li>Swim as instructed by Lifeguards</li>
-</ol>
+
+    <div class="col">
+     <div class="form">
+                <form action="confirmation.html" id="contactform">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input type="name" class="form-control" id="exampleFormControlInput1" required="name" placeholder="Jon Doe">
+                        <br>
+                        <label for="exampleFormControlInput2" class="form-label" >Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput2" required="Email" placeholder="jondoe@example.com">
+                      </div>
+                      
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-success">Submit</button>
+                    <!--<input class="submit" type="submit"/>-->      
+                    <button type="button" class="btn btn-secondary" onclick="Clearform()">Clear</button>
+                </form> 
+
+                <p>
+                    You may also send us an email to: info@jatravelreviews.com
+                </p>   
+
+            </div> 
     </div>
-        <div id="footer">&copy; Copyright 2024</div>
 
-      </div>
-      
 
+
+    </main>
+ <hr>
+    <footer>
+        <div style="text-align:center;">&copy; Copyright 2024</div>       
+    </footer>
+<hr>
+    <script src="js\jquery-3.7.1.min.js"></script>
+    <script src="js\popper.min.js"></script>
+    <script src="js\bootstrap.min.js"></script>
+    <script src="js\site.js"></script>
+    
 </body>
 </html>
