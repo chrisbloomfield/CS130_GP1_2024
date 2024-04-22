@@ -80,7 +80,7 @@ li a:hover {
 
 .boxes {
   display: flex;
-  column-gap: 2px;
+  column-gap: 4px;
   padding: 10px 2px 15px 2px;
  
 }
@@ -88,7 +88,7 @@ li a:hover {
 
 
 #hotel {
-  height: 200px;
+  height: 350px;
   width: 33%;
   margin-right: 2px;
   display: inline-block;
@@ -97,7 +97,7 @@ li a:hover {
 }
 
 #beach {
-  height: 200px;
+  height: 350px;
   width: 33%;
   display: inline-block;
   background-color: white;
@@ -105,7 +105,7 @@ li a:hover {
 }
 
 #tour{
-  height: 200px;
+  height: 350px;
   width: 33%;
   display: inline-block;
   background-color: white;
@@ -122,24 +122,5 @@ li a:hover {
 
 
 
-  .hotel {
-    float: left;
-    background: white;
-    width: 33%;
-    height: 280px;
-}
 
-.beach {
-    float: left;
-    background: white;
-    width: 33%;
-    height: 3000px;
-}
-
-.tour {
-    float: right;
-    background: white;
-    width: 33%;
-    height: 280px;
-}
 
