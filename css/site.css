@@ -48,6 +48,16 @@ li a:hover {
     text-align: center;
     background-color: #ffa500;
     color: white;
+    padding:2px;
+  }
+
+  /* style page header image */
+  .section-1{
+    height:400px;
+    width: 1512px;
+    background-image: url("../images/homeJgp2.jpg");
+    background-repeat: no-repeat;
+   
   }
 
 /* style home page image */
@@ -56,7 +66,7 @@ li a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 90%;
   }
 
   /**/
@@ -68,21 +78,65 @@ li a:hover {
   }
 */
 
-  #hotel {
-    float: left;
-    background: white;
-    width: 33%;
-    height: 280px;
+.boxes {
+  display: flex;
+  column-gap: 2px;
+  padding: 10px 2px 15px 2px;
+ 
+}
+
+
+
+#hotel {
+  height: 200px;
+  width: 33%;
+  margin-right: 2px;
+  display: inline-block;
+  background-color: white;
+  padding: 3px;
 }
 
 #beach {
+  height: 200px;
+  width: 33%;
+  display: inline-block;
+  background-color: white;
+  padding: 3px;
+}
+
+#tour{
+  height: 200px;
+  width: 33%;
+  display: inline-block;
+  background-color: white;
+  padding: 3px;
+}
+
+.box-4 {
+  height: auto;
+  width: 50%;
+  background-color: white;
+  padding: 5px;
+}
+
+
+
+
+  .hotel {
     float: left;
     background: white;
     width: 33%;
     height: 280px;
 }
 
-#tour {
+.beach {
+    float: left;
+    background: white;
+    width: 33%;
+    height: 3000px;
+}
+
+.tour {
     float: right;
     background: white;
     width: 33%;
