@@ -47,6 +47,7 @@ li a:hover {
   .container_header{
     text-align: center;
     background-color: #ffa500;
+    background-color: #2668C7;
     color: white;
     padding:2px;
   }
@@ -55,7 +56,7 @@ li a:hover {
   .section-1{
     height:400px;
     width: 1512px;
-    background-image: url("../images/homeJgp2.jpg");
+    background-image: url("../images/homeJgp3.jpg");
     background-repeat: no-repeat;
    
   }
