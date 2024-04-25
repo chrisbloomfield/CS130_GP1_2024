@@ -40,7 +40,7 @@ li a:hover {
     background-color: cornsilk;
     margin: 0 auto;
     padding:0px
-    
+    background-image: url("../images/homeJgp3.jpg");
   }
 */
   /*page header */
@@ -56,7 +56,7 @@ li a:hover {
   .section-1{
     height:400px;
     width: 1512px;
-    background-image: url("../images/homeJgp3.jpg");
+    
     background-repeat: no-repeat;
    
   }
@@ -79,6 +79,11 @@ li a:hover {
   }
 */
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 .boxes {
   display: flex;
   column-gap: 4px;
@@ -89,7 +94,7 @@ li a:hover {
 
 
 #hotel {
-  height: 350px;
+  height: 370px;
   width: 33%;
   margin-right: 2px;
   display: inline-block;
@@ -98,7 +103,7 @@ li a:hover {
 }
 
 #beach {
-  height: 350px;
+  height: 370px;
   width: 33%;
   display: inline-block;
   background-color: white;
@@ -106,7 +111,7 @@ li a:hover {
 }
 
 #tour{
-  height: 350px;
+  height: 370px;
   width: 33%;
   display: inline-block;
   background-color: white;
