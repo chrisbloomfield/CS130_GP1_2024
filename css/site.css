@@ -40,14 +40,25 @@ li a:hover {
     background-color: cornsilk;
     margin: 0 auto;
     padding:0px
-    
+    background-image: url("../images/homeJgp3.jpg");
   }
 */
   /*page header */
   .container_header{
     text-align: center;
     background-color: #ffa500;
+    background-color: #2668C7;
     color: white;
+    padding:2px;
+  }
+
+  /* style page header image */
+  .section-1{
+    height:400px;
+    width: 1512px;
+    
+    background-repeat: no-repeat;
+   
   }
 
 /* style home page image */
@@ -56,7 +67,7 @@ li a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 90%;
   }
 
   /**/
@@ -68,24 +79,54 @@ li a:hover {
   }
 */
 
-  #hotel {
-    float: left;
-    background: white;
-    width: 33%;
-    height: 280px;
+img {
+  width: 100%;
+  height: auto;
+}
+
+.boxes {
+  display: flex;
+  column-gap: 4px;
+  padding: 10px 2px 15px 2px;
+ 
+}
+
+
+
+#hotel {
+  height: 370px;
+  width: 33%;
+  margin-right: 2px;
+  display: inline-block;
+  background-color: white;
+  padding: 3px;
 }
 
 #beach {
-    float: left;
-    background: white;
-    width: 33%;
-    height: 280px;
+  height: 370px;
+  width: 33%;
+  display: inline-block;
+  background-color: white;
+  padding: 3px;
 }
 
-#tour {
-    float: right;
-    background: white;
-    width: 33%;
-    height: 280px;
+#tour{
+  height: 370px;
+  width: 33%;
+  display: inline-block;
+  background-color: white;
+  padding: 3px;
 }
+
+.box-4 {
+  height: auto;
+  width: 50%;
+  background-color: white;
+  padding: 5px;
+}
+
+
+
+
+
 
