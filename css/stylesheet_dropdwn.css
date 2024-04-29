@@ -17,7 +17,7 @@ nav {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 80%; 
-    z-index: inherit;
+    z-index: 2;
 }
 
 main {
@@ -34,7 +34,7 @@ li{
 ul {
     text-align: center;
     margin: 0 auto;
-    list-style-type: none;
+    list-style-type:none;
     margin: 0;
     padding: 0;
     overflow: hidden;
