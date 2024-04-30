@@ -86,7 +86,7 @@ img {
 
 .boxes {
   display: flex;
-  column-gap: 4px;
+  column-gap: 8px;
   padding: 10px 2px 15px 2px;
  
 }

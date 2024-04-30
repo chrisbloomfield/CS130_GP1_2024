@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="css\bootstrap.css">
     <link rel="stylesheet" href="css\site.css">
     <link rel="stylesheet" href="css\stylesheet_dropdwn.css">
+    <style>
+        .container{max-width:100%;height:auto;}
+        .card{ height: 370px;}
+    </style>
 </head>
 
 
@@ -28,12 +32,6 @@
                     </li>
                     
                 </ul>
-                <!--Dropdown-->
-        <!--
-                    <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-info" type="submit">Search</button>
-                    </form> -->
         </nav>
 
     </header> 
@@ -47,8 +45,8 @@
             
         
     </div>
-        
-      
+      <br>  
+     <hr> 
     <div id="information" style="padding:10px;">
         <h2><p>Welcome to JA Travel Reviews </p></h2>
         
@@ -60,37 +58,38 @@
         </p>
     </div>
 
-        <div class="boxes" style="padding:5px 2px 5px 2px;">  
-            
-            
-            <div id="hotel" class="card shadow-lg">                
-                <div class="card-header"><h2>Hotels</h2></div>
-                <div class="card-body">
-                    <a href="travel.html"><img src="images/hotel.jpg" class="center" alt="Hotels"></a>
-
+        <br>
+        <div class="container text-center">
+            <div class="row align-items-start row-cols-4">
+              <div class="col-4">
+                <div class="card shadow-lg">
+                  <a href="travel.html"><img src="images/hotel.jpg" class="card-img-top" alt="hotels"></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Hotels</h5>
+                    <p class="card-text">Escape to paradise at our exquisite hotels in Jamaica.</p>
+                 </div>
                 </div>
-                <div class="card-footer">Escape to paradise at our exquisite hotels in Jamaica</div>
               </div>
-
-              <div id="beach" class="card shadow-lg">                
-                <div class="card-header"><h2>Beaches</h2></div>
-                <div class="card-body">
-                    <a href="travel.html"><img src="images/beach2.jpg" class="center" alt="beach" width="100%"></a>
-
+              <div class="col-4">
+                <div class="card shadow-lg">
+                   <a href="travel.html"><img src="images/beach2.jpg" class="card-img-top" alt="beach"></a>
+                   <div class="card-body">
+                     <h5 class="card-title">Hotels</h5>
+                     <p class="card-text">Discover a world of pristine white sand.</p>
+                   </div>
                 </div>
-                <div class="card-footer"><p>Discover a world of pristine white sand</p></div>
               </div>
-               
-              <div id="tour" class="card shadow-lg">
-                <div class="card-header"><h2>Tours</h2></div>
-                <div class="card-body">
-                    <a href="travel.html"><img src="images/tour.jpg" class="center" alt="beach" width="100%"></a>
-
+              <div class="col-4">
+                <div class="card shadow-lg">
+                   <a href="travel.html"><img src="images/tour.jpg" class="card-img-top" alt="tours"></a>
+                   <div class="card-body">
+                     <h5 class="card-title">Hotels</h5>
+                     <p class="card-text">Immerse yourself in the vibrant and rich culture</p>
+                   </div>
                 </div>
-                <div class="card-footer">Immerse yourself in the vibrant and rich culture</div>
               </div>
-            
-        </div>
+            </div>
+          </div>
           
 
        
