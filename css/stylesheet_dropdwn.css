@@ -14,14 +14,14 @@ header, a{
 /* fix navigation bar on Page for scrolling*/
 nav {
     overflow: hidden;
-    position: fixed; /* Set the navbar to fixed position */
+   /* position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    width: 80%; 
+    width: 100%; 
     z-index: 2;
 }
 
 main {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 
@@ -63,6 +63,7 @@ ul {
     position:relative;
     text-align: center;
     background-color: #ffffff;
+    z-index: 1;
   }
   
   .dropdown-content div a{
