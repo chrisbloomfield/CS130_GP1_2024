@@ -15,11 +15,36 @@
     main{background-color: #f5f5dc6b;}
     p{font-family: Verdana, Geneva, Tahoma, sans-serif; width: 80%; margin: auto;}
     main a{display:block; margin-left: 10%; }
+    body, html { height: 100%;}
+
+.backdrop-image {
+ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('northcoast.jpg');
+height: 30%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.overlay-text {
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+background-color: #fea500;
+}
   </style>
 </head>
 
     <body>
+      <div class="backdrop-image"><img scr="northcoast.jpg"/>
+        <div class="overlay-text">
+          <h1>Beaches</h1>
+        </div>
+      </div>
       <header> 
+
         <nav> <!--Dropdown-->
                 <ul id="h-list">
                     <li><a href="index.html">Home</a></li>
@@ -37,11 +62,6 @@
                     
                 </ul>
                 <!--Dropdown-->
-        <!--
-                    <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-info" type="submit">Search</button>
-                    </form> -->
         </nav>
 
     </header>
