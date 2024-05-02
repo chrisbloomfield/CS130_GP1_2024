@@ -81,13 +81,13 @@ li a:hover {
 
 img {
   width: 100%;
-  height: auto;
+/*  height: auto;*/
 }
 
 .boxes {
   display: flex;
-  column-gap: 8px;
-  padding: 10px 2px 15px 2px;
+  column-gap: px;
+  /*padding: 10px 2px 15px 2px;*/
  
 }
 
