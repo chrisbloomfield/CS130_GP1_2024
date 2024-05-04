@@ -115,3 +115,16 @@ footer{
   .column {
     flex: 50%;
   }
+
+  .overlay-text h1{
+    color: #fea500;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: white; 
+    font-size: 35px; font-weight: bold;
+  }
+  .overlay-text p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
